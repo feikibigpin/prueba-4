@@ -20,12 +20,12 @@ function setup(){
 }
 
 function draw(){
-  inicio();//funcion
-  inicio.clear();//
+//  inicio();//funcion
+//  inicio.clear();//
 
-}
+//}
     
-function inicio (){
+//function inicio (){
     background(204);    
     
     var magnitude = int(map(energy, 0, 500, 0, 10)); 
