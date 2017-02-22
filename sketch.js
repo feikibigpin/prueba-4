@@ -20,6 +20,12 @@ function setup(){
 }
 
 function draw(){
+  inicio();//funcion
+  inicio.clear();//
+
+}
+    
+function inicio (){
     background(204);    
     
     var magnitude = int(map(energy, 0, 500, 0, 10)); 
@@ -116,8 +122,8 @@ function draw(){
    }   
     
    if(touchX > width/4 - width/7 && touchX < width/4 + width/7 && touchY > height/9 - width/7 && touchY <  height/9 + width/7){   
-       
-    background(204);
+    draw();   
+    //background(204);
     energy = 0;
        
    }   
